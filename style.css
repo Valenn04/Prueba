@@ -1,0 +1,54 @@
+/* Esto es un comentario */
+
+/* 
+selector {
+    propiedad: valor;
+}
+*/
+
+/* 
+1- Cascada */
+
+/*section p {
+    Ingles - RGB - RGBA - HSL - HEXA 
+    
+        color:red;
+}
+    */
+    
+ 
+
+/*  2- Class */
+
+.paragraph-blue {
+    color: blue;
+    background-color: black;
+}
+
+/* ID */
+#trabajos {
+    background-color: cadetblue;
+}
+
+/* Especificidad - utilizar class es lo mas recomendable */
+
+body {
+    background-image:url('imagenes/Boca.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(97, 97, 188, 0.375);
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 44px;
+}
+ul{
+    list-style: none;
+}
+
+
+
